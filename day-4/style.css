@@ -1,0 +1,126 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    border: solid 1px red;
+    display: flex ;
+}
+.headerlink{
+    width: 20%;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    text-align: none;
+    transition: ease-in-out 300ms;
+
+}
+.headerlink:hover{
+    opacity: 0.6;
+    transform: translateX(-20px) scale(1.2);
+
+}
+.headertitle{
+    width: 70%;
+    color: orange;
+    text-align: center;
+
+}
+/*--SITELLINKS--*/
+.sitelinks{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.navlink{
+ display: inline-block;
+ text-align: center;
+ padding: 1em 3em;
+ color: white;
+ border: solid white 1px;
+}
+.navlink:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.imgtitle{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    left: 5%;
+    text-align: center;
+}
+/*----Main Body--*/
+.mainbody{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-div{
+    width: 66%;
+}
+.pagelinks{
+    width: 30%;
+}
+
+.main-div section{
+    background-color: rgb(240, 200, 180);
+    padding: 1em 2em;
+}
+.main-div article{
+    padding: 1em;
+}
+
+
+/*----Page links*/
+.pagelinks{
+    padding: 1em;
+}
+.linknav{
+    border-bottom: 1px lightsalmon dotted;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: rgb(240, 80, 10);
+}
+.linknav:hover{
+    color: darkmagenta;
+    font-weight: 900;
+}
+
+/*----Figure---*/
+img{
+    width: 100%;
+    display: block;
+}
+.figureimg{
+    width: 70%;
+    margin: 2% auto;
+    position: relative;
+    box-shadow: 1px 1px 5px black;
+    overflow: hidden;
+}
+/*------Footer--*/
+.contact{
+    background-color: darkgoldenrod;
+    color: whitesmoke;
+    display: flex;
+    padding: 30px;
+}
+.contactcolumn{
+    width: 33%;
+}
+.policieslink{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+}
+.followicon{
+    width: 50px;
+    display: inline-block;
+    padding-right: 1em;
+    opacity: 0.5;
+}
+.followicon:hover{
+    opacity: 1;
+}
