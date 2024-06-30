@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Servey by Ahmad Adil Karim</title>
+    <link rel="stylesheet" href="syle.css">
+</head>
+<body>
+    <h1>Temporary Storage</h1>
+    <form class="myform" action="display.html">
+        <fieldset>
+            <legend>Servey</legend>
+            <div class="controlblock">
+                <label for="firstname">First Name</label>
+                <input type="text" name="username" id="firstname">
+            </div>
+
+            <div class="controlblock">
+                <p>Please select your favorite web language</p>
+                <label for="html">HTML</label>
+                <input type="radio" name="fav_language" id="html" value="Hyper Text Markup language, HTML">
+                <label for="css">CSS</label>
+                <input type="radio" name="fav_language" id="css" value="Cassceding Style Sheet, CSS">
+                <label for="js">JavaScript</label>
+                <input type="radio" name="fav_language" id="js" value="JavaScript, JS">
+
+            </div>
+
+            <div class="controlblock">
+                <input type="submit" value="Submit Servey">
+            </div>
+        </fieldset>
+    </form>
+
+
+    <div class="container">
+        <section class="item1">
+            <img src="item.jpg" class="imgitem1" alt="">
+            <p class="itemname">Butterfly</p>
+            <p class="itemdescription">Fine Fragance mist</p>
+            <p><s>17.95</s><b class="saleprice">4.48</b></p>
+            <form action="cart.html" class="formitem1">
+                <label for="quantityitem1">Quantity</label>
+                <input type="number" name="itemquantity" id="quantityitem1" max="10" min="0" class="quantityinput">
+                <input type="submit" value="Add to cart" class="item1btn">
+            </form>
+        </section>
+
+    </div>
+    
+
+
+
+
+
+
+    <script src="storage.js"></script>
+</body>
+</html>
